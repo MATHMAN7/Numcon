@@ -3,9 +3,13 @@ import javax.swing.JOptionPane;
 
 public class Main {
     public static void main(String[] args) {
+
+
         String userInput = JOptionPane.showInputDialog("Enter a number in words (q to quit) ");
-        userInput = userInput.trim().toLowerCase().replaceAll("[^a-z]", "");
-        //userInput = userInput.replaceAll(" ", "");
+
+
+        userInput = userInput.trim().toLowerCase().replaceAll("[^a-z]", "");     //Cleans the input
+
         boolean big3order = true;
 
 
@@ -13,11 +17,14 @@ public class Main {
         String million = "";
         String thousand = "";
         String hundred = "";
-
+                                        //we need these
         boolean bill = false;
         boolean mill = false;
         boolean thou = false;
         boolean hun = false;
+
+
+
 while(true) {
     if(userInput.equals("q")) {break;}
         while (true) {
@@ -51,7 +58,7 @@ while(true) {
             }
 
 
-//
+
 
 
             // System.out.println(big3order);

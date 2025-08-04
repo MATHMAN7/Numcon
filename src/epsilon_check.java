@@ -32,7 +32,7 @@ public class epsilon_check {
 
 
 
-//
+
         if(realInput.contains("hundred"))
         { String sub2=realInput.substring(realInput.indexOf("hundred")+7);
             if(sub2.contains("hundred")){isit=false;}
@@ -54,7 +54,7 @@ public class epsilon_check {
                         if(subsub2.contains(listtens.get(k))){isit=false;}}
 
 
-                }}// this checks if there are tens or ones when we know there are 10To19
+                }}
 
             int indexones=-1;
             int indextens=-100;
